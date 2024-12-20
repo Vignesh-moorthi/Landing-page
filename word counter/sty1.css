@@ -1,0 +1,51 @@
+body{
+    background: radial-gradient(aqua,blue);
+    animation-name: back;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+ 
+}
+@keyframes back{
+    100%{
+        background:radial-gradient(aqua,yellowgreen);
+    }
+}
+
+.box div{
+    display: flex;
+    justify-content: center;
+    min-width: 400px;
+}
+
+.box{
+   
+    width: 400px;
+    height: 360px;
+    border: 4px black solid;
+    border-radius: 20px;
+    background:linear-gradient(grey,blueviolet);
+    padding: 10px;
+    margin: 100px 500px 100px;
+    color:white;
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+button{
+    width: 100px;
+    height: 60px;
+    border-radius: 4px;
+    margin-top: 15px;
+    background-color: blueviolet;
+    
+}
+#res{
+    font-size: larger;
+    width: 200x;
+    height: 30px;
+    border: 2px black solid;
+    margin-top: 15px;
+    border-radius: 4px;
+
+}
